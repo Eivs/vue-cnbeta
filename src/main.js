@@ -3,6 +3,7 @@ import App from './app'
 import VueRouter from 'vue-router'
 import vueResource from 'vue-resource'
 import config from './config'
+import 'vux/dist/vux.css'
 
 Vue.use(VueRouter)
 Vue.use(vueResource)

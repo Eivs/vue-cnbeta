@@ -1,6 +1,7 @@
 var path = require('path')
 var express = require('express')
 var webpack = require('webpack')
+var request = require('request')
 var config = require('../config')
 var proxyMiddleware = require('http-proxy-middleware')
 var webpackConfig = process.env.NODE_ENV === 'testing'
@@ -20,8 +21,8 @@ var compiler = webpack(webpackConfig)
 var ApiUrl = 'http://api.cnbeta.com/capi'
 app.use('/api', function (req, res) {
   var url = ApiUrl + req.url.substring(1, req.url.length)
+  req.pipe(request(url)).pipe(res)
   console.log(url)
-  //req.pipe(request(url)).pipe(res)
 })
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {
