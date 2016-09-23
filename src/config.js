@@ -4,12 +4,17 @@ export default (() => {
       router.map({
         '*': {
           component (resolve) {
-            require(['./views/nofound'], resolve)
+            require(['./views/NoFound'], resolve)
           }
         },
         '/': {
           component (resolve) {
             require(['./views/index'], resolve)
+          }
+        },
+        '/articles/:sid': {
+          component (resolve) {
+            require(['./views/NewsContent'], resolve)
           }
         }
       })

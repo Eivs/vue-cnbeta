@@ -10,10 +10,13 @@ Vue.use(vueResource)
 
 const router = new VueRouter({
   history: true,
-  saveScrollPosition: true
+  saveScrollPosition: true,
+  hashbang: false,
+  transitionOnLoad: true
 })
 
 config.router(router)
+
 router.start(App, 'app')
 
 window.router = router

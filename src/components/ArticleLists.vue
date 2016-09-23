@@ -1,6 +1,6 @@
 <template lang="html">
   <group>
-    <panel header="" :list="list" type="1"></panel>
+    <panel header="" :list="lists" type="1"></panel>
   </group>
 </template>
 
@@ -10,22 +10,10 @@ import Cell from 'vux-components/cell'
 import Panel from 'vux-components/panel'
 
 export default {
+  props: ['lists'],
   data () {
     return {
-      list: [
-        {
-          title: '5G技术几秒钟内下载完整高清电影 日本运营商望率先采用',
-          url: '',
-          src: 'https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png',
-          desc: ''
-        },
-        {
-          title: '5G技术几秒钟内下载完整高清电影 日本运营商望率先采用',
-          url: '',
-          src: 'https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png',
-          desc: ''
-        }
-      ]
+      list: []
     }
   },
   computed: {},
@@ -39,3 +27,8 @@ export default {
   }
 }
 </script>
+<style lang="less" scoped>
+.weui_cells.vux-no-group-title {
+  margin-top:90px;
+}
+</style>
