@@ -1,0 +1,329 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"relative"
+			],
+			[
+				"obj",
+				"object"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"set",
+				"setAttribute"
+			],
+			[
+				"co",
+				"computed"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"imp",
+				"import〔keyword〕"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "upgrade",
+		"selected_items":
+		[
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sub",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 353.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/src"
+	],
+	"file_history":
+	[
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/vue-cnbeta.sublime-workspace",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/src/vue-cnbeta.sublime-project",
+		"/D/WebDev/Chat/assets/index.html",
+		"/D/WebDev/Chat/assets/css/chat.css",
+		"/D/WebDev/Chat/assets/css/framework7.ios.colors.css",
+		"/D/CKEditor/plugins/myforms/plugin.js",
+		"/D/CKEditor/plugins/myforms/dialogs/formfield.js",
+		"/D/CKEditor/package.json",
+		"/D/CKEditor/express.js",
+		"/D/CKEditor/config.js",
+		"/C/Program Files/Sublime Text/Data/Settings/SideBarEnhancements.json",
+		"/C/Program Files/Sublime Text/Data/Packages/CodeFormatter/CodeFormatter.sublime-settings",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/src/config.js",
+		"/C/Users/pengf01.MYSOFT/Desktop/table.js",
+		"/C/Program Files/Sublime Text/Data/Packages/CodeFormatter/Default (Windows).sublime-keymap",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/doc/cbapi.md",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/src/components/ArticleLists.vue",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/src/main.js",
+		"/C/Program Files/Sublime Text/Data/Packages/ESLint-Formatter/ESLint-Formatter.sublime-settings",
+		"/C/Program Files/Sublime Text/Data/Packages/ESLint-Formatter/Default (Windows).sublime-keymap",
+		"/C/Program Files/Sublime Text/Data/Packages/User/ESLint-Formatter.sublime-settings",
+		"/C/Program Files/Sublime Text/Data/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/C/Program Files/Sublime Text/Data/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Program Files/Sublime Text/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Program Files/Sublime Text/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Program Files/Sublime Text/Data/Packages/ESLint/ESLint.sublime-settings",
+		"/C/Program Files/Sublime Text/Data/Packages/User/ESLint.sublime-settings",
+		"/C/Program Files/Sublime Text/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Program Files/Sublime Text/Data/Packages/SideBarEnhancements/Side Bar.sublime-menu",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/.babelrc",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/src/Hello.vue",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/src/views/NewsContent.vue",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/src/views/index.vue",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/src/app.vue",
+		"/C/Program Files/Sublime Text/Data/Packages/SideBarEnhancements/Main.sublime-menu",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/src/appaa.vue",
+		"/C/Program Files/Sublime Text/Data/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/build/build.js",
+		"/C/Users/pengf01.MYSOFT/Documents/vue-cnbeta/README.md",
+		"/C/Program Files/Sublime Text/Data/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Program Files/Sublime Text/Data/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 136.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"function XMLDOM() ",
+			"In Files",
+			"Add"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 166.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 128.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 128.0
+	},
+	"pinned_build_system": "",
+	"project": "vue-cnbeta.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

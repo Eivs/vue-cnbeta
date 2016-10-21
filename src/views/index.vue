@@ -24,6 +24,7 @@ import Loading from 'vux-components/loading'
 import Toast from 'vux-components/toast'
 import ArticleLists from '../components/ArticleLists'
 import getData from '../assets/js/getData'
+import '../assets/css/app.css'
 
 export default {
   components: {

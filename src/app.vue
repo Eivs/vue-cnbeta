@@ -1,6 +1,7 @@
 <template>
     <router-view></router-view>
 </template>
+
 <script>
 export default {
   components: {}
@@ -8,16 +9,6 @@ export default {
 </script>
 
 <style lang="less">
-html, body {
-  height: 100%;
-  width: 100%;
-  font-size: 62.5%;
-  overflow: hidden;
-}
-body {
-  font-size: 1.4rem;
-  background-color: #fbf9fe;
-}
 .views {
   height: 100%
 }

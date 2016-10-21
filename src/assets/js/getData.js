@@ -3,7 +3,7 @@ import Vue from 'vue'
 import vueResource from 'vue-resource'
 
 Vue.use(vueResource)
-// dataAdapter
+  // dataAdapter
 export default ((params = {
   methods: '',
   page: '1',
@@ -22,22 +22,25 @@ export default ((params = {
   }
   let sign = MD5(parms + '&mpuffgvbvbttn3Rc')
   let apiUrl = '/api?' + parms + '&sign=' + sign
-  request(apiUrl, {success: params.success, error: params.error})
+  request(apiUrl, {
+    success: params.success,
+    error: params.error
+  })
 })
 
 export function request (apiUrl, callBack) {
   let resource = Vue.resource(apiUrl)
   resource.get()
-   .then((response) => {
-     if (response.ok) {
-       if (response.data.status === 'success') {
-         callBack.success(response)
-       } else {
-         callBack.error(response)
-       }
-     }
-   }, (response) => {
-     callBack.error(response)
-     console.log(response)
-   })
+    .then((response) => {
+      if (response.ok) {
+        if (response.data.status === 'success') {
+          callBack.success(response)
+        } else {
+          callBack.error(response)
+        }
+      }
+    }, (response) => {
+      callBack.error(response)
+      console.log(response)
+    })
 }
